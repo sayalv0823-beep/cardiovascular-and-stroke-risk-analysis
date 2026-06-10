@@ -1,2 +1,106 @@
-# cardiovascular-and-stroke-risk-analysis
-Data analysis of cardiovascular disease and stroke risk using Python
+# 心疾患・脳卒中リスク分析
+
+## 概要
+
+生活習慣や健康指標と心疾患・脳卒中リスクとの関連について分析を行いました。
+
+Pythonを用いて、
+
+* データ前処理
+* EDA（探索的データ分析）
+* 相関分析
+* ロジスティック回帰分析
+* CMH検定
+* Streamlitによるリスク予測アプリ作成
+
+を実施しています。
+
+---
+
+## 分析目的
+
+心疾患や脳卒中は加齢と強く関連することが知られています。
+
+本分析では、
+
+* 年齢
+* 血圧
+* 血糖値
+* BMI
+* 喫煙習慣
+
+などの日常的に把握しやすい指標に着目し、疾患リスクとの関連を検証しました。
+
+---
+
+## 主な分析結果
+
+### 心疾患
+
+関連が強くみられた因子
+
+* 年齢
+* 収縮期血圧
+* 高血圧既往
+* 血糖値
+* 喫煙
+
+### 脳卒中
+
+関連が強くみられた因子
+
+* 年齢
+* 高血圧
+* 心疾患既往
+* 血糖値
+
+---
+
+## ファイル構成
+
+* Cardiovascular_and_Stroke_Risk_Analysis.ipynb
+  分析ノートブック
+
+* Cardiovascular_and_Stroke_Risk_App.py
+  Streamlitアプリ
+
+* 心疾患・脳卒中リスク分析_Pythonポートフォリオ.pdf
+  分析レポート
+
+---
+
+## 使用データ
+
+* Framingham Heart Study Dataset
+* Stroke Prediction Dataset
+
+※ 元データはリポジトリには含めていません。
+
+---
+
+## 使用技術
+
+* Python
+* pandas
+* numpy
+* statsmodels
+* scikit-learn
+* Streamlit
+* Plotly
+
+---
+
+## 注意事項
+
+本分析およびアプリは学習・ポートフォリオ目的で作成したものです。
+
+医療診断を目的としたものではありません。
+
+## アプリについて
+
+本リポジトリには分析コードおよびアプリコードを掲載しています。
+
+使用データのライセンス等を考慮し、分析に使用したデータファイルは公開していません。
+
+そのため、アプリを実行するには別途データファイルが必要です。
+
